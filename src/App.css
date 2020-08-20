@@ -1,13 +1,108 @@
-.App {
-  text-align: center;
+.main-header{
+  background-color: #43a6da;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 12vh;
+  width: 100vw;
 }
 
-.App-logo {
+.header-navigation{
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main{
+  height: 88vh;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.card{
+  background-color: white;
+  width: 70%;
+  height: 65%;
+  /* margin-top: -50px; */
+  padding: 0px 65px;
+}
+
+.card-number{
+  position: relative; 
+}
+
+.card-number-child{
+  position: absolute; 
+  top: -20px;
+  right: -55px;
+  font-weight: bold;
+  font-size: 25px;
+  }
+
+.person-name{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline#43a6da;
+  text-decoration-thickness: 10px;
+  margin-top: 40px;
+}
+
+.info-box{
+  margin-top: 10px;
+}
+
+.title-info{
+  font-weight: bold;
+}
+
+.favorites{
+  margin-top: 35px;
+}
+
+.below-card{
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+button{
+  background-color: #43a6da;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 11px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+li{
+  padding-top: 7px;
+}
+
+.text-button{
+  background-color: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 7px 11px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+/* .App {
+  text-align: center;
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+} */
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +130,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
